@@ -1,16 +1,49 @@
-# carkim_var
+# Carkim Var
 
-A new Flutter project.
+Carkim Var, Flutter ile geliştirilmiş bir mobil uygulamadır.  
+Kullanıcılar uygulama içerisinde çark çevirerek puan kazanabilir, seviyelerini yükseltebilir ve çeşitli özellikleri keşfedebilir.
 
-## Getting Started
+## Özellikler
+- Çark çevirme sistemi
+- Puan kazanma ve kaybetme mekanikleri
+- Seviye atlama (Bronz, Gümüş, Altın, Platin, Elmas gibi)
+- Kullanıcı profili ve bilgileri
+- QR kod entegrasyonu (puan veya ödül kazanma için)
+- Sipariş ve geçmiş sistemi (eğer uygulama mantığında varsa)
 
-This project is a starting point for a Flutter application.
+## Proje Yapısı
+```
+carkim_var/
+├── lib/            # Ana uygulama kodları (Flutter)
+├── android/        # Android yapı dosyaları
+├── ios/            # iOS yapı dosyaları
+├── assets/         # Görseller, ikonlar
+├── pubspec.yaml    # Proje bağımlılıkları
+└── README.md       # Proje tanıtım dosyası
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Kurulum
+Projenin çalışması için Flutter ve Dart kurulu olmalıdır.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Bu projeyi klonlayın:
+   ```bash
+   git clone https://github.com/KULLANICI_ADIN/carkim_var.git
+   ```
+2. Bağımlılıkları indirin:
+   ```bash
+   flutter pub get
+   ```
+3. Uygulamayı çalıştırın:
+   ```bash
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ekran Görüntüleri (Opsiyonel)
+Buraya uygulamanın ekran görüntülerini ekleyebilirsiniz.
+
+## Geliştirici
+- Arda Işık  
+- Flutter & Dart ile geliştirilmiştir.
+
+## Lisans
+Bu proje açık kaynaklıdır. Dilediğiniz gibi kullanabilir, geliştirebilirsiniz.
